@@ -20,6 +20,7 @@ val PureConfigVersion      = "0.9.2"
 val TsecVersion            = "0.0.1-M11"
 
 libraryDependencies ++= Seq(
+  "co.fs2" %% "fs2-core" % "0.10.6",
   "org.typelevel"         %% "cats-core"            % CatsVersion,
   "io.circe"              %% "circe-generic"        % CirceVersion,
   "io.circe"              %% "circe-literal"        % CirceVersion,
